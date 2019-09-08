@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated ra -->
+      <package
+            uri="platform:/resource/tdt4250/model/ra.ecore"
+            class="ra.RaPackage"
+            genModel="model/ra.genmodel"/>
+   </extension>
+
+</plugin>

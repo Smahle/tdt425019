@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tdt4250.ra:Department
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:tdt4250.ra="platform:/resource/tdt4250/model/ra.ecore">
+  <programme
+      name="Informatics"
+      mCode="MSIT">
+    <studyPlan>
+      <spesialization
+          name="Databases and Search">
+        <semester
+            semesterNumber="1"
+            courseSlot="//@course.0 //@course.1 //@course.2 //@course.3"
+            mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.8 //@programme.0/@studyPlan/@mandatoryCourse.12 //@programme.0/@studyPlan/@mandatoryCourse.11 //@programme.0/@studyPlan/@mandatoryCourse.10 //@programme.0/@studyPlan/@mandatoryCourse.9"/>
+        <semester
+            semesterNumber="2"
+            courseSlot="//@course.5 //@course.6 //@course.7 //@course.10"
+            mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.2 //@programme.0/@studyPlan/@mandatoryCourse.7 //@programme.0/@studyPlan/@mandatoryCourse.6 //@programme.0/@studyPlan/@mandatoryCourse.5 //@programme.0/@studyPlan/@mandatoryCourse.4 //@programme.0/@studyPlan/@mandatoryCourse.3"/>
+        <semester
+            semesterNumber="3"
+            courseSlot="//@course.11"
+            mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.1"/>
+        <semester
+            semesterNumber="4"
+            courseSlot="//@course.12"
+            mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.0"/>
+      </spesialization>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.3"
+          course="//@course.12"
+          mandatory="true"
+          credit="30.0"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.2"
+          course="//@course.11"
+          mandatory="true"
+          credit="30.0"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.1"
+          course="//@course.10"
+          mandatory="true"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.1"
+          course="//@course.9"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.1"
+          course="//@course.8"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.1"
+          course="//@course.7"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.1"
+          course="//@course.6"
+          mandatory="true"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.1"
+          course="//@course.5"
+          mandatory="true"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.0"
+          course="//@course.0"
+          mandatory="true"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.0"
+          course="//@course.1"
+          mandatory="true"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.0"
+          course="//@course.2"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.0"
+          course="//@course.3"
+          credit="7.5"/>
+      <mandatoryCourse
+          semester="//@programme.0/@studyPlan/@spesialization.0/@semester.0"
+          course="//@course.4"
+          credit="7.5"/>
+    </studyPlan>
+  </programme>
+  <course name="Information Retriveal"
+      code="TDT4117"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.8"/>
+  <course name="Very Large, Distributed Data Volumes"
+      code="TDT4225"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.9"/>
+  <course name="Software Security"
+      code="TDT4237"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.10"/>
+  <course name="Parallel Computing"
+      code="TDT4200"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.11"/>
+  <course name="Web Development"
+      code="IT2810"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.12"/>
+  <course name="Research-based Innovation Methodologies"
+      code="IT3010"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.7"/>
+  <course name="Data Warehousing and Data Mining"
+      code="TDT4300"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.6"/>
+  <course name="Advanced Database Management Systems"
+      code="TDT4150"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.5"/>
+  <course name="Big Data Architecture"
+      code="TDT4305"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.4"/>
+  <course name="Recommender Systems"
+      code="TDT4215"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.3"/>
+  <course name="Experts in Team"
+      code="MFEL4856"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.2"/>
+  <course name="Informatics Postgraduate Thesis autum"
+      code="IT3902"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.1"/>
+  <course name="Informatics Postgraduate Thesis spring"
+      code="IT3902"
+      mandatoryCourse="//@programme.0/@studyPlan/@mandatoryCourse.0"/>
+</tdt4250.ra:Department>

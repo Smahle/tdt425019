@@ -1,0 +1,7 @@
+ReadMe
+
+semester: mandatoryOrNotCourse sier at dersom et course er merket som mandatory i et semester i klassen mandatoryCourse må det course være i courseSlot.
+mandatoryOrNotCourse sier og at et semester må ha minst 30 studiepoeng. Antall poeng et fag gir er også satt i mandatoryCourse.
+
+Har ikke fått til derived verdi (totalPoints i Semester). Har prøvd direkte java kode med @generated NOT i semesterImpl, invocationDelegates og body som key, og settingDelegates med derivation som key uten hell.
+Registrer at den derived attributen "factor" ikke forandrer seg her: https://gitlab.stud.idi.ntnu.no/tdt4250-2018-staff/examples.git og samme med "workLoad" som ikke oppdateres når en forandrer verdier her: https://gitlab.stud.idi.ntnu.no/TDT4250/examples.git så mulig jeg gjør noe feil når jeg instanserer modellen.
